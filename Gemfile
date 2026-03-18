@@ -51,12 +51,13 @@ group :development, :test do
   gem 'rake'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'rubocop'
-  gem 'rubocop-capybara'
-  gem 'rubocop-rails'
-  gem 'rubocop-rake'
-  gem 'rubocop-rspec'
-  gem 'rubocop-rspec_rails'
+  gem 'rubocop', require: false
+  gem 'rubocop-capybara', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rake', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'rubocop-rspec_rails', require: false
 end
 
 group :development do
